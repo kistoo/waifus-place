@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.sing-up {
+    display: flex;
+    flex-direction: row;
+}
