@@ -7,6 +7,17 @@ body {
     font-family: 'Roboto';
 }
 
+h1 {
+    font-size: 48px;
+    font-family: 'Roboto', 'extra-bold';
+    color: #F9FAF8;
+}
+
+p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -36,6 +47,33 @@ body {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.presentation div {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding:0 30px;
+}
+
+.presentation button {
+    max-width:100px;
+    height: 40px;
+    background: #3882f6;
+    color: #F9FAF8;
+    border: #3882f6;
+    border-radius: 3px;
+}
+
+
+
+.presentation img {
+    width: 500px;
+    height: auto;
+    padding: 30px;
 }
 
 .content {
