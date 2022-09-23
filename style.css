@@ -1,13 +1,35 @@
-.body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
     display: flex;
     flex-direction: column;
     background-color: white;
+    font-family: 'Roboto';
 }
 
 .header {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header ul{
+    display: flex;
+    margin-left: auto;
+}
+
+.header ul li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-left: 15px;
 }
 
 .presentation {
