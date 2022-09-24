@@ -5,6 +5,10 @@ body {
     flex-direction: column;
     background-color: white;
     font-family: 'Roboto';
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -13,27 +17,49 @@ h1 {
     color: #F9FAF8;
 }
 
+h3 {
+    font-family: 'Roboto', 'extra-bold';
+    font-size: 36px;
+    color: #1f2937;
+}
+
 p {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+.background {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.blue {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
-    flex-direction: row;
-    background-color: #1F2937;
+    justify-content: space-between;
     align-items: center;
+    max-width: 1300px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 700;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
 }
+
 
 .header ul{
     display: flex;
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
 }
 
 .header ul li {
@@ -50,13 +76,19 @@ p {
     padding: 30px;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .presentation div {
     display: flex;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 600px;
+    max-height: 304.688px;
     padding:0 30px;
+}
+
+.presentation div h1 {
+    margin: auto;
 }
 
 .presentation button {
@@ -68,10 +100,8 @@ p {
     border-radius: 3px;
 }
 
-
-
 .presentation img {
-    width: 500px;
+    width: 600px;
     height: auto;
     padding: 30px;
 }
@@ -79,15 +109,42 @@ p {
 .content {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.content h3 {
+    margin: 50px;
+}
+
+.content p {
+    color: #1F2937;
+    text-align: center;
+}
+
+.waifus {
+    display: flex;
+    gap: 40px;
+}
+
+.waifu img {
+    max-width: 200px;
+    height: auto;
+    border-color: #3882f6;
+    border-radius: 10px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    width: 100%;
 }
 
 .sing-up {
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
