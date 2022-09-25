@@ -171,9 +171,10 @@ p {
     align-items: center;
     justify-content: space-between;
     background: #3882f6;
-    padding: 40px 160px;
+    padding: 40px 100px;
     margin: 100px 0;
     border-radius: 15px;
+    column-gap: 200px;
 }
 
 .sing-up h3 {
@@ -193,7 +194,6 @@ p {
 .sing-up div {
     display: flex;
     flex-direction: column;
-    column-gap: 20px;
 }
 
 .sing-up button {
