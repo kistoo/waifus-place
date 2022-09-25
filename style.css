@@ -28,21 +28,23 @@ p {
     color: #E5E7EB;
 }
 
-.background {
+.head {
     align-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.blue {
     background-color: #1F2937;
 }
+   
 
 .header {
+    width: 1260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
 }
 
 .logo {
