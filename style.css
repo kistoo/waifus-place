@@ -73,7 +73,7 @@ p {
     display: flex;
     flex-direction: row;
     background-color: #1F2937;
-    padding: 30px;
+    padding: 90px 30px;
     justify-content: center;
     align-items: center;
     width: 100%;
