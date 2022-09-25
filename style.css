@@ -202,3 +202,17 @@ p {
     font-size: 16px;
     font-weight: 800;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    width: 100%;
+}
+
+.footer h5 {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: 300;
+}
